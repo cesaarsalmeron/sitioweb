@@ -5,12 +5,12 @@ function cargarImagenesLocales() {
     // Array con los nombres de las imágenes en la carpeta 'imagenes'
 
     const imagenes = [
-        { src: '../imagenes/imagen1.jpg', title: 'Campo' },
-        { src: '../imagenes/imagen2.jpg', title: 'Campo con nubes' },
-        { src: '../imagenes/imagen3.jpg', title: 'Edificio' },
-        { src: '../imagenes/imagen4.jpg', title: 'Carretera' },
-        { src: '../imagenes/imagen5.jpg', title: 'Anochecer' },
-        { src: '../imagenes/imagen6.jpg', title: 'Lago' },
+        { src: '../Imagenes/imagen1.jpg', title: 'Campo' },
+        { src: '../Imagenes/imagen2.jpg', title: 'Campo con nubes' },
+        { src: '../Imagenes/imagen3.jpg', title: 'Edificio' },
+        { src: '../Imagenes/imagen4.jpg', title: 'Carretera' },
+        { src: '../Imagenes/imagen5.jpg', title: 'Anochecer' },
+        { src: '../Imagenes/imagen6.jpg', title: 'Lago' },
         // Añade más imágenes y títulos según sea necesario
     ];
 
