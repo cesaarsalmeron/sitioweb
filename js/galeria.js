@@ -10,7 +10,7 @@ function cargarImagenesLocales() {
         { src: '../imagenes/imagen3.jpg', title: 'Edificio' },
         { src: '../imagenes/imagen4.jpg', title: 'Carretera' },
         { src: '../imagenes/imagen5.jpg', title: 'Anochecer' },
-        { src: '../imagenes/imagen6.png', title: 'Lago' },
+        { src: '../imagenes/imagen6.jpg', title: 'Lago' },
         // Añade más imágenes y títulos según sea necesario
     ];
 
