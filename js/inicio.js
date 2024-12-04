@@ -1,5 +1,5 @@
-fetch('https://newsapi.org/v2/everything?q=Apple&language=es&sortBy=publishedAt&apiKey=a8cf3ccfcef8400b9195c53ed469fbe5')
-    .then(response => response.json())
+fetch('https://cesaarsalmeron.github.io/sitioweb/noticias.json')
+.then(response => response.json())
     .then(data => {
         // Verifica si la respuesta tiene artículos
         if (data.status === "ok" && data.articles) {
