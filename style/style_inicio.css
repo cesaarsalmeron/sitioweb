@@ -1,0 +1,56 @@
+/* Estilo general del contenedor de noticias */
+#noticias {
+    margin: 20px;
+    padding: 20px;
+    background-color: #5CB8B8;
+    border-radius: 8px;
+}
+
+/* Estilo para el encabezado h2 */
+#noticias h2 {
+    font-size: 2em; /* Tamaño de fuente mayor para el título */
+    font-family: 'Georgia', serif; /* Fuente clásica para periódicos */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: black; /* Color del texto */
+}
+
+/* Estilo para el contenedor de noticias */
+#noticias-Apple {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Usamos un grid flexible para las noticias */
+    gap: 20px; /* Espacio entre las noticias */
+}
+
+/* Estilo para cada noticia */
+.noticia {
+    background-color: #AFEDED;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.noticia h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.noticia p {
+    font-size: 1em;
+    color: #555;
+}
+
+.noticia a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #226666; /* Azul similar al de los enlaces */
+    text-decoration: none; /* Elimina el subrayado por defecto */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.noticia a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+    color: #226666; /* Un azul más oscuro al pasar el ratón */
+}

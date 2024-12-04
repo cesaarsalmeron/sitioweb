@@ -1,0 +1,49 @@
+#map {
+    margin-bottom: 20px;
+}
+
+#datos-contacto {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #226666;
+}
+
+form {
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-size: 1em;
+}
+
+form input{
+    margin: 5px;
+}
+
+form textarea{
+    margin: 5px;
+}
+
+
+/* Botones */
+.form-buttons {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #00554e;
+    color: white;
+    border: none;
+    margin: 5px;    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #226666;
+}

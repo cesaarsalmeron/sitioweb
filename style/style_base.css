@@ -1,0 +1,117 @@
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #AFEDED;
+    padding: 20px;
+}
+
+footer {
+    background-color: #5CB8B8;;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilo para los logotipos de redes sociales */
+.social-media {
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    margin-right: 15px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para la dirección */
+.address {
+    margin-bottom: 15px;
+}
+
+.address p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Estilo para el aviso legal */
+.legal-notice a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.legal-notice a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el menú */
+nav {
+    position: fixed;  /* Hace que el menú quede fijo en la pantalla */
+    top: 0;  /* Se queda en la parte superior */
+    left: 0;
+    width: 100%;  /* Ocupa todo el ancho de la pantalla */
+    background-color: #5CB8B8;  /* Color de fondo del menú */
+    z-index: 1000;  /* Asegura que el menú esté sobre otros elementos */
+    padding: 10px 0;  /* Espaciado arriba y abajo */
+    box-shadow: 0 2px 5px #5CB8B8;  /* Sombra sutil para darle profundidad */
+}
+
+/* Estilos de los enlaces dentro del menú */
+nav ul {
+    list-style-type: none;  /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;  /* Espacio entre los enlaces */
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+/* Efecto cuando el mouse pasa sobre los enlaces */
+nav ul li a:hover {
+    background-color: #226666;
+    color: white;
+}
+
+/* Añadir un margen superior a los contenidos debajo del menú para evitar que se superpongan */
+main {
+    margin-top: 60px;  /* Ajusta según el tamaño de tu menú */
+}
+
+/* Ajustes para la cabecera */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #AFEDED;
+    color: black;
+}

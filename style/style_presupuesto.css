@@ -1,0 +1,105 @@
+/* Estilo para el formulario */
+form {
+    width: 100%;  /* Hacer que ocupe todo el ancho disponible */
+    margin: 20px auto;  /* Centrado en la pantalla */
+    padding: 40px;  /* Añadir más relleno interno para separar el contenido */
+    background-color: #5CB8B8;
+    border-radius: 10px;
+    box-sizing: border-box;  /* Para que el padding no aumente el tamaño total */
+}
+
+/* Sección del formulario */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo del encabezado de la sección */
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para los inputs, selects y textarea */
+input, select {
+    padding: 10px;
+    margin-bottom: 15px;  /* Espacio entre los campos de entrada */
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;  /* Asegura que el padding no se salga del ancho total */
+}
+
+/* Estilo específico para los checkbox */
+input[type="checkbox"] {
+    width: auto;  /* Restablecer el tamaño para los checkboxes */
+    height: 20px; /* Aumentar el tamaño del checkbox */
+    margin-right: 10px;  /* Espacio entre el checkbox y el texto */
+    accent-color: #5CB8B8;  /* Color de acento del checkbox (al ser seleccionado) */
+    border-radius: 3px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el checkbox */
+    transform: scale(1.2); /* Aumentar el tamaño del checkbox */
+}
+
+/* Cambiar el estilo al pasar el ratón sobre el checkbox */
+input[type="checkbox"]:hover {
+    transform: scale(1.3); /* Un poco más grande cuando se pasa el ratón */
+}
+
+/* Estilo para el texto junto al checkbox */
+input[type="checkbox"] + label {
+    font-size: 1em;
+    color: #fff;
+}
+
+/* Estilo para el texto del checkbox cuando está seleccionado */
+input[type="checkbox"]:checked + label {
+    color: #5CB8B8; /* Cambiar el color del texto cuando está seleccionado */
+}
+
+/* Estilo para los mensajes de error */
+.error {
+    color: black;
+    font-size: 12px;
+}
+
+/* Botones */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #226666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #226666;
+}
+
+/* Hacer que el formulario sea responsive */
+@media screen and (max-width: 768px) {
+    form {
+        padding: 20px;  /* Menos relleno en pantallas más pequeñas */
+    }
+
+    .form-buttons {
+        flex-direction: column;  /* Los botones estarán apilados en pantallas pequeñas */
+        align-items: stretch;
+    }
+
+    button {
+        margin-bottom: 10px;  /* Espacio entre los botones en pantallas pequeñas */
+    }
+}
