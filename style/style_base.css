@@ -7,16 +7,8 @@ h1 {
 
 body {
     display: flex;
-    flex-direction: column; /* Organiza los elementos en columna */
+    flex-direction: column;
     background-color: #AFEDED;
-    padding: 20px;
-    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
-    margin: 0; /* Elimina márgenes predeterminados */
-}
-
-/* El contenido principal debe ocupar todo el espacio disponible */
-.galeria-container {
-    flex: 1; /* Esto hace que el contenido ocupe todo el espacio disponible */
     padding: 20px;
 }
 
