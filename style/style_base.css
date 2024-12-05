@@ -117,7 +117,7 @@ header {
     color: black;
 }
 /* Estilo para la opción activa del menú */
-nav ul li a.active {
+#menu a.active {
     background-color: #226666;  /* Color de fondo para la opción activa */
     color: white;  /* Color del texto para la opción activa */
     border-radius: 5px;  /* Redondear las esquinas del enlace activo */
