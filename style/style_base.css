@@ -11,7 +11,7 @@ body {
 }
 
 footer {
-    position: grid;  /* Hace que el menú quede fijo en la pantalla */
+    position: fixed;  /* Hace que el menú quede fijo en la pantalla */
     bottom: 0;  /* Se queda en la parte superior */
     left: 0;
     width: 100%;  /* Ocupa todo el ancho de la pantalla */
