@@ -6,13 +6,14 @@ h1 {
 }
 
 body {
+    display: flex;
+    flex-direction: row;
     background-color: #AFEDED;
     padding: 20px;
 }
 
 footer {
-    background-color: #5CB8B8;
-    ;
+    background-color: #5CB8B8;;
     color: black;
     padding: 20px 0;
     text-align: center;
@@ -20,12 +21,9 @@ footer {
 }
 
 .footer-content {
-    display: grid;
-    /* Activa el CSS Grid */
-    grid-template-columns: repeat(3, 1fr);
-    /* Divide el espacio en 3 columnas iguales */
-    gap: 20px;
-    /* Espacio entre las columnas */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Estilo para los logotipos de redes sociales */
