@@ -18,7 +18,7 @@ footer {
     padding: 20px 0;
     text-align: center;
     border-radius: 8px;
-    position: fixed;
+    position: static;
 }
 
 .footer-content {
