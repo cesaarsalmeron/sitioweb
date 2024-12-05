@@ -5,28 +5,45 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Establecer el body como un contenedor flexible */
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Organiza los elementos en columna */
     background-color: #AFEDED;
     padding: 20px;
-}
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes predeterminados */
+  }
 
-footer {
-    background-color: #5CB8B8;;
+  /* El contenido principal debe ocupar todo el espacio disponible */
+  #content {
+    flex: 1; /* Esto hace que el contenido ocupe todo el espacio disponible */
+    padding: 20px;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #5CB8B8;
     color: black;
     padding: 20px 0;
     text-align: center;
     border-radius: 8px;
-    position: static;
-    bottom: 0%;
-}
+    position: static; /* Se queda en el flujo normal */
+  }
 
-.footer-content {
+  /* Contenido dentro del pie de página */
+  .footer-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-}
+  }
+
+  /* Responsivo: ajusta el pie para pantallas pequeñas */
+  @media (max-width: 768px) {
+    footer {
+      padding: 15px;
+    }
+  }
 
 /* Estilo para los logotipos de redes sociales */
 .social-media {
