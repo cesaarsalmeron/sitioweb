@@ -11,6 +11,7 @@ body {
 }
 
 footer {
+    position: grid;  /* Hace que el menú quede fijo en la pantalla */
     background-color: #5CB8B8;;
     color: black;
     padding: 20px 0;
