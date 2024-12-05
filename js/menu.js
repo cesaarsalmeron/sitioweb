@@ -1,17 +1,11 @@
-// Seleccionar todos los enlaces del menú
-const menuItems = document.querySelectorAll('nav ul li a');
+window.onload = function() {
+  var currentLocation = window.location.pathname;
+  var menuItems = document.querySelectorAll("#menu a");
 
-// Función para eliminar la clase 'active' de todos los enlaces
-function removeActiveClass() {
-  menuItems.forEach(item => {
-    item.classList.remove('active');
+  menuItems.forEach(function(item) {
+    // Compara el href con la ruta actual
+    if (currentLocation.includes(item.getAttribute('href'))) {
+      item.classList.add("active");
+    }
   });
 }
-
-// Añadir el evento de clic a cada enlace del menú
-menuItems.forEach(item => {
-  item.addEventListener('click', () => {
-    removeActiveClass();  // Elimina la clase 'active' de todos los enlaces
-    item.classList.add('active');  // Añade la clase 'active' al enlace clickeado
-  });
-});
