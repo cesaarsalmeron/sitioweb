@@ -1,4 +1,4 @@
-fetch('https://cesaarsalmeron.github.io/sitioweb/noticias.json')
+fetch('../noticias.json')
 .then(response => response.json())
     .then(data => {
         // Verifica si la respuesta tiene artículos
