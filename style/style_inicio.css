@@ -6,6 +6,14 @@
     border-radius: 8px;
 }
 
+/* Estilo para las secciones */
+h2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #5CB8B8;
+    border-radius: 8px;
+}
+
 /* Estilo para el encabezado h2 */
 #noticias h2 {
     font-size: 2em; /* Tamaño de fuente mayor para el título */
