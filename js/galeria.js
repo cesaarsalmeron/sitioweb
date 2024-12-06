@@ -23,6 +23,8 @@ function cargarImagenesLocales() {
         const imgElement = document.createElement('img');
         imgElement.src = imagen.src; // Asignar la ruta de la imagen
         imgElement.alt = imagen.title; // Descripción alternativa
+        imgElement.height=300; //Ajustamos la altura
+        imgElement.width=200; //Ajustamos el ancho
 
         // Agregar la imagen al item
         galeriaItem.appendChild(imgElement);
